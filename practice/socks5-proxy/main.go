@@ -97,7 +97,7 @@ func auth(reader *bufio.Reader, conn net.Conn) error {
 		return fmt.Errorf("read method body failed: %w", err)
 	}
 
-	log.Println("version", ver, "method", method)
+	// log.Println("version", ver, "method", method)
 
 	// method=0x00 代表不需要认证
 	_, err = conn.Write([]byte{socks5Ver, 0x00})
