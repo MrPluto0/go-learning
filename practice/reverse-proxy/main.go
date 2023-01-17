@@ -1,3 +1,4 @@
+// Reverse Proxy：From 127.0.0.1:8082 To https://www.baidu.com
 package main
 
 import (
@@ -11,7 +12,7 @@ func NewProxy(targetHost string) (*httputil.ReverseProxy, error) {
 	director := func(req *http.Request) {
 		req.URL.Scheme = "https"
 		req.URL.Host = targetHost
-		req.Header.Set("X-Real-Ip", req.RemoteAddr)
+		req.Host = targetHost
 	}
 	proxy := &httputil.ReverseProxy{Director: director}
 
