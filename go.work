@@ -1,0 +1,8 @@
+go 1.19
+
+use (
+	./function-hook
+	./go-mock
+	./go-pprof
+	./go-user-manual
+)

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"learning/practice/go-user-manual/greetings"
+	"go-user-manual/greetings"
 )
 
 func main() {

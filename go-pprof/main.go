@@ -5,7 +5,7 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"learning/practice/go-pprof/data"
+	"go-pprof/data"
 )
 
 func main() {

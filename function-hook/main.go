@@ -1,6 +1,6 @@
 package main
 
-import "learning/practice/function-hook/handler"
+import "function-hook/handler"
 
 func main() {
 	h := handler.LoginHandler{}
