@@ -4,8 +4,11 @@
 | -------------- | --------------------------------------------------------------- |
 | rand           | learn how to use random number                                  |
 | slice          | learn the difference of `array` and `slice`                     |
-| net            | practice the usage of `net`                                     |
 | struct         | learn about composition of `struct`                             |
+| net            | practice the usage of `net`                                     |
+| http           | learn how to use `http`                                         |
+| rpc            | learn how to use `rpc`                                          |
+| go-protoc      | learn about protocol buffer                                     |
 | function-hook  | a case to add hook for function                                 |
 | go-user-manual | finish according to `Go User Manual` in Go's Official Website   |
 | socks5-proxy   | an example to create a proxy by `socks5` protocol               |

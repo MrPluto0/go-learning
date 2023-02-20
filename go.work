@@ -4,5 +4,9 @@ use (
 	./function-hook
 	./go-mock
 	./go-pprof
+	./go-protoc
 	./go-user-manual
+	./http
+	./rpc/client
+	./rpc/server
 )
